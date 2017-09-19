@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Mapping>
+<!--   <FileToFile map="PluginAssemblies\**\ProjectXrmPlugins.dll" to="..\Project.Xrm.Plugins\bin\**\Project.Xrm.Plugins.dll" />
+  <FileToFile map="WebResources\nf_MyComponent\Images\test_image.jpg" to="..\Project.Solution1.WebResources\MyComponent\Images\test_image.jpg" />
+ -->
+
+
+  <FileToFile map="PluginAssemblies\**\TestXrmPlugins.dll" to="..\Test.Xrm.Plugins\bin\**\Test.Xrm.Plugins.dll" />
+
+
+  <FileToFile map="PluginAssemblies\**\TestXrmWorkflows.dll" to="..\Test.Xrm.Workflows\bin\**\Test.Xrm.Workflows.dll" />
+
+
+ </Mapping>

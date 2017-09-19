@@ -42,6 +42,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entities\Account\Entity.xml" />
+    <Content Include="Entities\Account\FormXml\main\{b053a39a-041a-4356-acef-ddf00182762b}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{b053a39a-041a-4356-acef-ddf00182762b}_managed.xml" />
+    <Content Include="Entities\Account\RibbonDiff.xml" />
+    <Content Include="Other\Customizations.xml" />
+    <Content Include="Other\Relationships.xml" />
+    <Content Include="Other\Solution.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
