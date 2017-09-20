@@ -159,7 +159,20 @@
                       </labels>
                       <control id="emailaddress1" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress1" />
                     </cell>
-                    <cell id="{01289424-a3c2-4c71-815b-cb5f2bfaf9ce}">
+                    <cell id="{01289424-a3c2-4c71-815b-cb5f2bfaf9ce}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{4e580ca6-061d-27e4-3b23-4c8a363e5cba}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Email Address 2" languagecode="1033" />
+                      </labels>
+                      <control id="emailaddress2" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress2" disabled="false" />
+                    </cell>
+                    <cell id="{5b5cb2a1-0761-c794-d269-44277235ae46}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
@@ -343,7 +356,7 @@
                       </labels>
                       <control id="sic" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sic" />
                     </cell>
-                    <cell id="{02f048e0-e417-409e-8e3f-c9a5197f6035}">
+                    <cell id="{02f048e0-e417-409e-8e3f-c9a5197f6035}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
@@ -377,7 +390,7 @@
                       </labels>
                       <control id="customertypecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="customertypecode" />
                     </cell>
-                    <cell id="{29760e45-5a38-4b2a-b8d0-fd99fb62f6d1}">
+                    <cell id="{29760e45-5a38-4b2a-b8d0-fd99fb62f6d1}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
@@ -431,7 +444,7 @@
                       </labels>
                       <control id="creditonhold" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="creditonhold" />
                     </cell>
-                    <cell id="{811dc54d-f71e-4364-93f4-71e00074d317}">
+                    <cell id="{811dc54d-f71e-4364-93f4-71e00074d317}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
@@ -524,7 +537,7 @@
                   <row />
                   <row />
                   <row />
-                  <row />
+                  <row height="auto" />
                 </rows>
               </section>
               <section name="notes" showlabel="true" showbar="true" id="{2D4972DE-69D5-4518-B3F7-A9683B62E2C0}" IsUserDefined="0" height="auto">
@@ -569,7 +582,7 @@
                       </labels>
                       <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                     </cell>
-                    <cell id="{4e4fe577-cb53-47ba-a2de-2742f5611843}">
+                    <cell id="{4e4fe577-cb53-47ba-a2de-2742f5611843}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
@@ -609,12 +622,12 @@
                       </labels>
                       <control id="donotemail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotemail" />
                     </cell>
-                    <cell id="{4c7e3528-1a05-47d8-99c4-383e8ae36f62}">
+                    <cell id="{4c7e3528-1a05-47d8-99c4-383e8ae36f62}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
                     </cell>
-                    <cell id="{e28fe8e7-db54-417b-b8b4-bd10dca6a598}">
+                    <cell id="{e28fe8e7-db54-417b-b8b4-bd10dca6a598}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
@@ -627,12 +640,12 @@
                       </labels>
                       <control id="donotphone" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotphone" />
                     </cell>
-                    <cell id="{7efb5294-1d1c-4f78-9918-03dd80563cfb}">
+                    <cell id="{7efb5294-1d1c-4f78-9918-03dd80563cfb}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
                     </cell>
-                    <cell id="{de7fc26f-92d3-4ac7-8794-fe1cdaebfe5a}">
+                    <cell id="{de7fc26f-92d3-4ac7-8794-fe1cdaebfe5a}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
@@ -645,12 +658,12 @@
                       </labels>
                       <control id="donotpostalmail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotpostalmail" />
                     </cell>
-                    <cell id="{3565f9d6-329d-4dc1-9c62-2be387e4fbe7}">
+                    <cell id="{3565f9d6-329d-4dc1-9c62-2be387e4fbe7}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
                     </cell>
-                    <cell id="{1056ce4d-ed0e-4f6c-b70e-196b23978edb}">
+                    <cell id="{1056ce4d-ed0e-4f6c-b70e-196b23978edb}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
@@ -684,7 +697,7 @@
                       </labels>
                       <control id="donotsendmm" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotsendmm" disabled="false" />
                     </cell>
-                    <cell id="{e8eb9a12-1e10-492b-bc93-384f7c166ec5}">
+                    <cell id="{e8eb9a12-1e10-492b-bc93-384f7c166ec5}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
@@ -736,7 +749,7 @@
                         </parameters>
                       </control>
                     </cell>
-                    <cell id="{2007a51d-f1c5-4750-989c-4dda02c448d6}">
+                    <cell id="{2007a51d-f1c5-4750-989c-4dda02c448d6}" showlabel="false">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
@@ -784,7 +797,7 @@
             </labels>
             <control id="header_revenue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="revenue" disabled="true" />
           </cell>
-          <cell id="{bbdd44c3-d521-352e-db99-e0507da47822}">
+          <cell id="{bbdd44c3-d521-352e-db99-e0507da47822}" showlabel="false">
             <labels>
               <label description="" languagecode="1033" />
             </labels>
@@ -801,20 +814,65 @@
     </clientresources>
     <Navigation>
       <NavBar>
-        <NavBarByRelationshipItem RelationshipName="Account_CustomerAddress" Id="navAddresses" TitleResourceId="Tab_Label_MoreAddresses" />
-        <NavBarByRelationshipItem RelationshipName="account_parent_account" Id="navSubAct" Icon="/_imgs/area/18_subAccounts.gif" TitleResourceId="Label_SubAccounts" />
-        <NavBarByRelationshipItem RelationshipName="Account_ActivityPointers" Id="navActivities" Icon="/_imgs/ico_18_act.gif">
+        <NavBarByRelationshipItem RelationshipName="Account_CustomerAddress" Id="navAddresses" TitleResourceId="Tab_Label_MoreAddresses" Sequence="10" Area="Info">
+          <Titles>
+            <Title LCID="1033" Text="More Addresses" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="Account_ActivityPointers" Id="navActivities" Icon="/_imgs/ico_18_act.gif" Sequence="20" Area="Info">
           <Privileges>
             <Privilege Entity="" Privilege="ReadActivity" />
           </Privileges>
+          <Titles>
+            <Title LCID="1033" Text="Activities" />
+          </Titles>
         </NavBarByRelationshipItem>
-        <NavBarByRelationshipItem RelationshipName="Account_ActivityPointers" Id="navActivityHistory" TitleResourceId="Tab_Label_History" Icon="/_imgs/ico_18_history.gif" ViewId="21E2B905-6FDB-470d-8517-AD69B4C01268">
+        <NavBarByRelationshipItem RelationshipName="Account_ActivityPointers" Id="navActivityHistory" TitleResourceId="Tab_Label_History" Icon="/_imgs/ico_18_history.gif" ViewId="21E2B905-6FDB-470d-8517-AD69B4C01268" Sequence="20" Area="Info">
           <Privileges>
             <Privilege Entity="" Privilege="ReadActivity" />
           </Privileges>
+          <Titles>
+            <Title LCID="1033" Text="Closed Activities" />
+          </Titles>
         </NavBarByRelationshipItem>
-        <NavBarByRelationshipItem RelationshipName="account_customer_relationship_customer" Id="navRelationships" TitleResourceId="Left_Nav_Area_Relationships" />
+        <NavBarByRelationshipItem RelationshipName="account_parent_account" Id="navSubAct" Icon="/_imgs/area/18_subAccounts.gif" TitleResourceId="Label_SubAccounts" Sequence="40" Area="Info">
+          <Titles>
+            <Title LCID="1033" Text="Sub-Accounts" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="account_customer_relationship_customer" Id="navRelationships" TitleResourceId="Left_Nav_Area_Relationships" Sequence="60" Area="Info">
+          <Titles>
+            <Title LCID="1033" Text="Relationships" />
+          </Titles>
+        </NavBarByRelationshipItem>
       </NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
     </Navigation>
     <formLibraries>
       <Library name="msdyn_/ActivityFeeds.Form.js" libraryUniqueId="{4181da4c-6d13-ba3c-c859-be404e4ee2e3}" />
