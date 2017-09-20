@@ -42,8 +42,26 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <None Include="coretools\CrmSvcUtil.exe.config" />
+    <None Include="coretools\LicenseTerms.docx" />
+    <None Include="Scripts\CrmSolution.Common.ps1" />
+    <None Include="Scripts\Pull-CrmSolution.Param.ps1" />
+    <None Include="Scripts\Pull-CrmSolution.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="coretools\CrmSvcUtil.exe" />
+    <Content Include="coretools\CrmSvcUtil.xml" />
+    <Content Include="coretools\Microsoft.Crm.Sdk.Proxy.dll" />
+    <Content Include="coretools\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" />
+    <Content Include="coretools\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll" />
+    <Content Include="coretools\Microsoft.Xrm.Sdk.Deployment.dll" />
+    <Content Include="coretools\Microsoft.Xrm.Sdk.dll" />
+    <Content Include="coretools\Microsoft.Xrm.Tooling.Connector.dll" />
+    <Content Include="coretools\Microsoft.Xrm.Tooling.CrmConnectControl.dll" />
+    <Content Include="coretools\Other Redistributable.txt" />
+    <Content Include="coretools\SolutionPackager.exe" />
+    <Content Include="Mappings\ALMPOC.CRM.Schema-mapping.xml" />
     <Content Include="SolutionPackager\Microsoft.Crm.Outlook.Sdk.dll" />
     <Content Include="SolutionPackager\Microsoft.Crm.Sdk.Proxy.dll" />
     <Content Include="SolutionPackager\Microsoft.Crm.Tools.EmailProviders.dll" />
