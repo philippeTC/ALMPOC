@@ -178,19 +178,6 @@
                       </labels>
                     </cell>
                   </row>
-                  <row>
-                    <cell id="{0019ddac-8c7b-7902-5a08-59db9c134a96}" showlabel="true" locklevel="0">
-                      <labels>
-                        <label description="Email Address 3" languagecode="1033" />
-                      </labels>
-                      <control id="emailaddress3" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress3" disabled="false" />
-                    </cell>
-                    <cell id="{1d8ebdc3-0843-e416-c69b-cd0382d4831d}" showlabel="false">
-                      <labels>
-                        <label description="" languagecode="1033" />
-                      </labels>
-                    </cell>
-                  </row>
                 </rows>
               </section>
               <section name="address" showlabel="true" showbar="true" id="{5779eb54-a281-4f49-924f-7dad336c7107}" IsUserDefined="0">
