@@ -46,6 +46,8 @@
     <None Include="coretools\CrmSvcUtil.exe.config" />
     <None Include="coretools\LicenseTerms.docx" />
     <None Include="Scripts\CrmSolution.Common.ps1" />
+    <None Include="Scripts\Deploy-CrmSolution.Param.ps1" />
+    <None Include="Scripts\Deploy-CrmSolution.ps1" />
     <None Include="Scripts\Pull-CrmSolution.Param.ps1" />
     <None Include="Scripts\Pull-CrmSolution.ps1" />
   </ItemGroup>
