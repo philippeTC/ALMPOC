@@ -50,6 +50,7 @@
     <None Include="Scripts\Deploy-CrmSolution.ps1" />
     <None Include="Scripts\Pull-CrmSolution.Param.ps1" />
     <None Include="Scripts\Pull-CrmSolution.ps1" />
+    <None Include="Scripts\Initialise.ps1" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="coretools\CrmSvcUtil.exe" />
