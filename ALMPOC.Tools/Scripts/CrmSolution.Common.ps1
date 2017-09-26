@@ -51,3 +51,17 @@ function Get-CrmPassword($solutionName)
   }
   return $plainTextPassword;
 }
+
+function Get-CrmDevOrgUrl($solutionName)
+{
+  $variableName = "nfac_" + $solutionName + "_devorgurl"
+  $devorgurl = [environment]::GetEnvironmentVariable($variableName, "User")
+
+  if($devorgurl -eq $null)
+  {
+    Write-Host "Please provide the local organization url to sync $solutionName. It will be saved as [$variableName] user environmental variable." -ForegroundColor Yellow
+    $devorgurl = Read-Host "Local Org URL"
+    [environment]::SetEnvironmentVariable($variableName, $devorgurl,  "User")
+  }
+  return $devorgurl;
+}
