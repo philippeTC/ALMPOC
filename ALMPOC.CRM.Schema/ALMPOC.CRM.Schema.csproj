@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build;AfterBuild" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -56,15 +56,25 @@
     <Content Include="Other\Relationships.xml" />
     <Content Include="Other\Solution.xml" />
   </ItemGroup>
+
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">
-  </Target>
-  -->
+  </Target>-->
+  
   <Target Name="Build">
+	<Message Text="Starting Build actions ..."></Message>
     <Exec Command="&quot;$(SolutionDir)\ALMPOC.Tools\coretools\SolutionPackager.exe&quot; /action:pack /packagetype:both /folder:&quot;$(MSBuildProjectDirectory)&quot; /zipfile:&quot;$(OutDir)$(MSBuildProjectName).zip&quot; /map:&quot;$(SolutionDir)\ALMPOC.Tools\Mappings\ALMPOC.CRM.Schema-mapping.xml&quot;" />
+  </Target>
+  
+  <ItemGroup>
+    <SolutionPackages Include="$(OutDir)$(MSBuildProjectName)*.zip" />
+  </ItemGroup>
+  <Target Name="AfterBuild">
+    <Message Text="Starting Post-Build actions ..."></Message>
+	<Copy SourceFiles="@(SolutionPackages)" DestinationFolder="$(SolutionDir)ALMPOC.SolutionPackage\PkgFolder"></Copy>
   </Target>
 </Project>
