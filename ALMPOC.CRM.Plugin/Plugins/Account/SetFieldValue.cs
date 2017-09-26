@@ -24,8 +24,10 @@ namespace ALMPOC.CRM.Plugins.Plugins.Account
 
                 #endregion Verify execution context
 
-                var x = "change";
+                var context = accManager.PluginExecutionContext;
+                var entity = (Entity)context.InputParameters["Target"];
 
+                entity["tickersymbol"] = "INF";
             }
             catch (Exception Ex)
             {
