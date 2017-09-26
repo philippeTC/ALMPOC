@@ -64,21 +64,6 @@
     <Content Include="coretools\Other Redistributable.txt" />
     <Content Include="coretools\SolutionPackager.exe" />
     <Content Include="Mappings\ALMPOC.CRM.Schema-mapping.xml" />
-    <Content Include="SolutionPackager\Microsoft.Crm.Outlook.Sdk.dll" />
-    <Content Include="SolutionPackager\Microsoft.Crm.Sdk.Proxy.dll" />
-    <Content Include="SolutionPackager\Microsoft.Crm.Tools.EmailProviders.dll" />
-    <Content Include="SolutionPackager\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" />
-    <Content Include="SolutionPackager\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll" />
-    <Content Include="SolutionPackager\Microsoft.Xrm.Sdk.Deployment.dll" />
-    <Content Include="SolutionPackager\Microsoft.Xrm.Sdk.dll" />
-    <Content Include="SolutionPackager\Microsoft.Xrm.Sdk.Workflow.dll" />
-    <Content Include="SolutionPackager\Microsoft.Xrm.Tooling.Connector.dll" />
-    <Content Include="SolutionPackager\Microsoft.Xrm.Tooling.CrmConnectControl.dll" />
-    <Content Include="SolutionPackager\Microsoft.Xrm.Tooling.CrmConnector.Powershell.dll" />
-    <Content Include="SolutionPackager\Microsoft.Xrm.Tooling.PackageDeployment.Powershell.dll" />
-    <Content Include="SolutionPackager\Microsoft.Xrm.Tooling.Ui.Styles.dll" />
-    <Content Include="SolutionPackager\Microsoft.Xrm.Tooling.WebResourceUtility.dll" />
-    <Content Include="SolutionPackager\SolutionPackager.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
