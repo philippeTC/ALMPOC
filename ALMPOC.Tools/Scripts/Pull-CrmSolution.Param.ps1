@@ -21,7 +21,7 @@ Write-Host "Attempting to pull solution(s)..."
 try
 {
   .\Pull-CrmSolution.ps1 `
-    -serverUrl "https://almpocpdb.crm4.dynamics.com" `
+    -serverUrl (Get-CrmDevOrgUrl "ALMPOC.CRM.Schema") `
     -username (Get-CrmUsername "ALMPOC.CRM.Schema") `
     -password (Get-CrmPassword "ALMPOC.CRM.Schema") `
     -solutionName "MainSolution" `

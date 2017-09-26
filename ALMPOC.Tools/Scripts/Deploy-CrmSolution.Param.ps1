@@ -21,7 +21,7 @@ Write-Host "Attempting to deploy solution(s)..."
 try
 {
   .\Deploy-CrmSolution.ps1 `
-    -serverUrl "https://almpochanss.crm4.dynamics.com" `
+    -serverUrl (Get-CrmDevOrgUrl "ALMPOC.CRM.Schema") `
     -username (Get-CrmUsername "ALMPOC.CRM.Schema") `
     -password (Get-CrmPassword "ALMPOC.CRM.Schema") `
     -solutionName "ALMPOC.CRM.Schema" `
