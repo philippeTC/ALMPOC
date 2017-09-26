@@ -40,9 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Folder Include="Properties\" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="Entities\Account\Entity.xml" />
     <Content Include="Entities\Account\FormXml\main\{8448b78f-8f42-454e-8e2a-f8196b0419af}.xml" />
