@@ -78,13 +78,43 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="1" schemaName="account" behavior="1" />
-      <RootComponent type="1" schemaName="contact" behavior="1" />
-      <RootComponent type="1" schemaName="incident" behavior="1" />
-      <RootComponent type="60" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
-      <RootComponent type="60" id="{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" />
-      <RootComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="1" schemaName="contact" behavior="0" />
+      <RootComponent type="1" schemaName="incident" behavior="0" />
+      <RootComponent type="1" schemaName="new_nacecode" behavior="0" />
+      <RootComponent type="1" schemaName="new_supportticket" behavior="0" />
+      <RootComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" behavior="0" />
+      <RootComponent type="60" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" behavior="0" />
+      <RootComponent type="60" id="{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" behavior="0" />
+      <RootComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" behavior="0" />
+      <RootComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" behavior="0" />
+      <RootComponent type="60" id="{eb3748b8-5f90-4050-a039-8b7d279ad8fe}" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="3" type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="3" type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="4" type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="4" type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>

@@ -44,19 +44,195 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Entities\Account\Entity.xml" />
+    <Content Include="Entities\Account\FormXml\card\{cccff382-2b92-467e-bf1b-3db179512af8}.xml" />
+    <Content Include="Entities\Account\FormXml\mainInteractionCentric\{a72c7955-442b-4ea4-9499-b10cd18b4256}.xml" />
     <Content Include="Entities\Account\FormXml\main\{8448b78f-8f42-454e-8e2a-f8196b0419af}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{8448b78f-8f42-454e-8e2a-f8196b0419af}_managed.xml" />
+    <Content Include="Entities\Account\FormXml\main\{b053a39a-041a-4356-acef-ddf00182762b}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{b053a39a-041a-4356-acef-ddf00182762b}_managed.xml" />
+    <Content Include="Entities\Account\FormXml\mobile\{20ec3318-e87e-4623-afe5-cac39cd090de}.xml" />
+    <Content Include="Entities\Account\FormXml\quickCreate\{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{098ae145-1567-41ec-8398-86dbaac70c9b}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{2205c86d-ed88-4a2f-a447-3b86a8781f2e}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{43300723-f867-420b-ab28-976a4d12e6c4}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{69cff312-cfb6-4289-9631-249ab85d2c62}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{b028db32-3619-48a5-ac51-cf3f947b0ef3}.xml" />
     <Content Include="Entities\Account\RibbonDiff.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000000666000}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001001}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001002}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001031}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001200}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{15c63745-0a6e-4322-8416-a62c84d90279}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{2d1187c4-23fe-4bb5-9647-43bb1c6ddbd1}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{31089fd8-596a-47be-9c9c-3ff82c7a8f8c}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{38a21ffb-4e32-4038-beb9-03172a0dd034}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{49fb9771-09e1-4e70-b193-198752493577}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{4d149ed9-12f1-4cd3-8427-418674f21bed}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{51de84dd-732f-440f-a506-26123a19ab50}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{59e57080-0cc2-e211-9b83-00155d89b902}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{a424ac61-bec9-48b0-a3e0-4bb903bd186e}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{a9af0ab8-861d-4cfa-92a5-c6281fed7fab}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{c147f1f7-1d78-4d10-85bf-7e03b79f74fa}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{cfbcd7af-aee5-4e45-8ecc-c040d4020581}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{d234426e-1f37-4944-9255-50e19b541c4c}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{d9c57fee-71ad-48e2-a17b-4ebbd01ec328}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{f9e54d49-0c76-4cbd-979b-5fe94b496be0}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{f9e54d49-0c76-4cbd-979b-5fe94b496beb}.xml" />
+    <Content Include="Entities\Account\Visualizations\{5B290FFF-355F-DF11-AE90-00155D2E3002}.xml" />
+    <Content Include="Entities\Account\Visualizations\{74A622C0-5193-DE11-97D4-00155DA3B01E}.xml" />
+    <Content Include="Entities\Account\Visualizations\{88DE94CC-8B5E-DF11-AE90-00155D2E3002}.xml" />
+    <Content Include="Entities\Account\Visualizations\{A3A9EE47-5093-DE11-97D4-00155DA3B01E}.xml" />
+    <Content Include="Entities\Account\Visualizations\{BE178262-6142-4B41-85B7-4CCEDC62CFD9}.xml" />
     <Content Include="Entities\Contact\Entity.xml" />
+    <Content Include="Entities\Contact\FormXml\card\{bc0f68dd-a4b1-4a8f-bed3-c8f5db2f89cf}.xml" />
+    <Content Include="Entities\Contact\FormXml\mainInteractionCentric\{cc760212-3eab-4009-b5c3-ea9cf6f3e141}.xml" />
     <Content Include="Entities\Contact\FormXml\main\{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}_managed.xml" />
+    <Content Include="Entities\Contact\FormXml\mobile\{d8523fca-34f4-4745-8afc-b785fcd192ab}.xml" />
+    <Content Include="Entities\Contact\FormXml\quickCreate\{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{29de27bc-a257-4f29-99cf-bab4a84e688f}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{707fc57b-c5e6-471b-a180-e37ed28a38e2}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{7bb87dfd-ec3e-4ed9-8e3e-5725d3067295}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{bdb0ae1c-32fa-4374-b637-8dafe107bc44}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{d880c3cf-80e2-42f3-82f9-24d040d09f17}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e}.xml" />
+    <Content Include="Entities\Contact\FormXml\taskBasedForm\{26843818-6508-4afe-9342-5fae2ebf15ca}.xml" />
     <Content Include="Entities\Contact\RibbonDiff.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000000666400}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001003}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001004}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001033}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001210}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{09963269-65e7-4f70-963f-a61ee495e705}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{0a8fa653-4147-4282-bf6b-168cfa839803}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{14ea1914-0e2c-4918-8eca-60930324f18f}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{2f0d0ede-d356-4b1e-83bd-e978f10e3eeb}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{33a05713-9d37-4ce8-b41f-bc515f426271}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{58dc4bee-60b7-4a84-987f-800296b71404}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{58fb20ff-d5be-406f-908e-c777e9dedf5f}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{65d2cba8-eeda-4419-b03b-d9c2d8272e51}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{73bc2d9b-4e0e-424c-8839-ed59d6817e3a}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{8df19b44-a073-40c3-9d6d-ee1355d8c4ba}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{927e6cd8-b3ed-4c20-a154-b8bd8a86d172}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{9818766e-7172-4d59-9279-013835c3decd}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{9c241a33-ca0b-4e50-ae92-db780d5b2a12}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{a2d479c5-53e3-4c69-addd-802327e67a0d}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{ab582fb0-a846-453e-ad88-77f75ce91264}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{afdb8a51-9681-4cc9-aaa4-29449e5bc9e1}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{c14e0638-4996-4720-97cd-c58f0df74220}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{c14e0638-4996-4720-97cd-c58f0df74228}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{eda26f1e-dbcc-40ad-91f2-ff2878d1d8d8}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{fe7c9f99-efe8-44dc-9191-619492401b0c}.xml" />
+    <Content Include="Entities\Contact\Visualizations\{2FF3EBEA-6310-4DDE-B3A1-E1144EA42B7B}.xml" />
+    <Content Include="Entities\Contact\Visualizations\{751B7456-308E-4568-A3A9-47135AAE833A}.xml" />
+    <Content Include="Entities\Contact\Visualizations\{E365462F-1DB9-46A8-928D-BEAB1A7A2375}.xml" />
+    <Content Include="Entities\Contact\Visualizations\{EA89E2AD-2602-4333-8724-AA5775D66B77}.xml" />
     <Content Include="Entities\Incident\Entity.xml" />
+    <Content Include="Entities\Incident\FormXml\card\{e8f97346-4f58-47de-964f-cbd64a52011b}.xml" />
+    <Content Include="Entities\Incident\FormXml\mainInteractionCentric\{915f6055-2e07-4276-ae08-2b96c8d02c57}.xml" />
     <Content Include="Entities\Incident\FormXml\main\{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}.xml" />
+    <Content Include="Entities\Incident\FormXml\main\{f658c846-f74c-459b-b591-b97558958106}.xml" />
+    <Content Include="Entities\Incident\FormXml\main\{f658c846-f74c-459b-b591-b97558958106}_managed.xml" />
+    <Content Include="Entities\Incident\FormXml\mobile\{a273e363-e63f-42e3-a708-d9318020fc47}.xml" />
+    <Content Include="Entities\Incident\FormXml\quickCreate\{8e10b902-0b3e-441c-8b12-88e6c1793848}.xml" />
+    <Content Include="Entities\Incident\FormXml\quick\{8ed8553f-b520-4fe3-b2e7-59eef8301486}.xml" />
     <Content Include="Entities\Incident\RibbonDiff.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000000666200}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010001028}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010001029}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010001030}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010001032}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010001034}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010001039}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010001046}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010003501}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{06d2061b-703e-465b-b8ad-fd69c6157127}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{11352b6f-0761-4799-9f47-e5de0b7b34b3}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{1853caa4-255f-df11-ae90-00155d2e3002}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{2d5e1400-f86d-df11-986c-00155d2e3002}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{429bd987-ac6f-df11-986c-00155d2e3002}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{460f1fad-2673-df11-986c-00155d2e3002}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{4d3297df-c7f0-45f9-9e09-b5b9df223645}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{5dbd358d-6670-4138-92b3-b5810fa2a0e8}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{65ab1a2c-1cd9-4fbe-8fd3-d52142d6b3fd}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{6dfba3a1-6df3-4140-831b-b385c7e92b64}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{72210bbb-d9d5-42df-8efd-39395a3cd7a7}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{95aa1763-3800-4d3e-906f-e81b4191ac8e}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{9ac51863-58c7-49a0-adcc-afd9a4c3ee59}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{bad2fbea-2673-df11-986c-00155d2e3002}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{bd15c679-df0b-e611-80d2-00155db1076f}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{c111f612-1563-df11-ae90-00155d2e3002}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{cfb670fe-d205-450f-8edb-8f247081adb5}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{d95d47ef-4a1d-479e-9065-b9cea0089048}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{e1d7d576-da76-4f22-8a65-cc57e23c41bb}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{ebd1d24a-eea7-e211-9fb6-00155dd0ea05}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{fb30f6af-cea8-4320-a060-151350f1f0e7}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{0591140A-F66D-DF11-986C-00155D2E3002}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{0F0FB995-9D6F-453C-B26D-8F443E42E676}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{17C3F166-5B22-4476-819B-B05DA2E8D24F}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{30B20692-F56D-DF11-986C-00155D2E3002}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{38872E4F-AC99-E511-80DA-00155DC1B253}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{4143B74E-4A07-4D01-9FFE-2CDCAA4208FD}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{458DF52A-AC99-E511-80DA-00155DC1B253}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{674F71AE-B8BF-E511-80CF-00155DBAAC76}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{6FA1977D-77B4-474B-9492-68BC75CD361D}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{99782DA3-A382-DE11-9FF3-00155DA3B012}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{997CBF5A-1C09-4990-B174-A8EF1530092B}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{9AE7AAAC-D568-DF11-986C-00155D2E3002}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{9B0FE80A-25FA-4BA6-A7F5-657829791EBA}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{B9687708-255F-DF11-AE90-00155D2E3002}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{D5666449-B4BC-4134-B5F8-BD67B130315B}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{D6BC80CA-763B-4236-A599-C52C1317E482}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{DDE82758-2782-DE11-9FF3-00155DA3B012}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{DF31B045-1D63-DF11-AE90-00155D2E3002}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{E4E880F1-4D93-DE11-97D4-00155DA3B01E}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{F096F892-A382-DE11-9FF3-00155DA3B012}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{F10375A6-4893-DE11-97D4-00155DA3B01E}.xml" />
+    <Content Include="Entities\Incident\Visualizations\{FFD9D95A-0F67-40C1-9245-C393E3E443F0}.xml" />
+    <Content Include="Entities\new_nacecode\Entity.xml" />
+    <Content Include="Entities\new_nacecode\FormXml\card\{384bc832-fc69-41b3-8d0a-8bfe9bb16a3d}.xml" />
+    <Content Include="Entities\new_nacecode\FormXml\card\{384bc832-fc69-41b3-8d0a-8bfe9bb16a3d}_managed.xml" />
+    <Content Include="Entities\new_nacecode\FormXml\mainInteractionCentric\{d012002a-b800-44b7-9efb-e6cce075ae43}.xml" />
+    <Content Include="Entities\new_nacecode\FormXml\mainInteractionCentric\{d012002a-b800-44b7-9efb-e6cce075ae43}_managed.xml" />
+    <Content Include="Entities\new_nacecode\FormXml\main\{6ca08032-42cc-4212-af06-5546421cc1d6}.xml" />
+    <Content Include="Entities\new_nacecode\FormXml\main\{6ca08032-42cc-4212-af06-5546421cc1d6}_managed.xml" />
+    <Content Include="Entities\new_nacecode\FormXml\mobile\{1ea92958-8338-4672-b6b1-028b27acca3d}.xml" />
+    <Content Include="Entities\new_nacecode\FormXml\mobile\{1ea92958-8338-4672-b6b1-028b27acca3d}_managed.xml" />
+    <Content Include="Entities\new_nacecode\FormXml\quick\{1b20bc16-7700-4605-9df8-803c777a3964}.xml" />
+    <Content Include="Entities\new_nacecode\FormXml\quick\{1b20bc16-7700-4605-9df8-803c777a3964}_managed.xml" />
+    <Content Include="Entities\new_nacecode\RibbonDiff.xml" />
+    <Content Include="Entities\new_nacecode\SavedQueries\{0650f49f-4d23-42be-83d2-e1e6a50b1cb0}.xml" />
+    <Content Include="Entities\new_nacecode\SavedQueries\{12cce613-4f73-435c-be26-a3aa3f67f2ce}.xml" />
+    <Content Include="Entities\new_nacecode\SavedQueries\{1a264f57-930f-4ce3-b38f-108448606503}.xml" />
+    <Content Include="Entities\new_nacecode\SavedQueries\{32abce33-635a-466f-8567-2eba418332b1}.xml" />
+    <Content Include="Entities\new_nacecode\SavedQueries\{6be01fde-1d78-4623-8f02-9c24ffd2a368}.xml" />
+    <Content Include="Entities\new_nacecode\SavedQueries\{d474c801-9ca2-e711-80e3-3863bb358fa8}.xml" />
+    <Content Include="Entities\new_nacecode\SavedQueries\{fe622c10-61af-4528-a41c-a527828b9342}.xml" />
+    <Content Include="Entities\new_supportticket\Entity.xml" />
+    <Content Include="Entities\new_supportticket\FormXml\card\{21dec3d8-143b-492a-ac9b-0b76533a275e}.xml" />
+    <Content Include="Entities\new_supportticket\FormXml\card\{21dec3d8-143b-492a-ac9b-0b76533a275e}_managed.xml" />
+    <Content Include="Entities\new_supportticket\FormXml\mainInteractionCentric\{64b21eb4-d275-45a8-b416-d5a37b7acbf4}.xml" />
+    <Content Include="Entities\new_supportticket\FormXml\mainInteractionCentric\{64b21eb4-d275-45a8-b416-d5a37b7acbf4}_managed.xml" />
+    <Content Include="Entities\new_supportticket\FormXml\main\{d10d080c-5704-4cc5-8f60-a46b2361108a}.xml" />
+    <Content Include="Entities\new_supportticket\FormXml\main\{d10d080c-5704-4cc5-8f60-a46b2361108a}_managed.xml" />
+    <Content Include="Entities\new_supportticket\FormXml\mobile\{9a743033-ebf1-49e3-8791-4d15affa48b7}.xml" />
+    <Content Include="Entities\new_supportticket\FormXml\mobile\{9a743033-ebf1-49e3-8791-4d15affa48b7}_managed.xml" />
+    <Content Include="Entities\new_supportticket\FormXml\quick\{dd664642-fd44-49b5-9965-0d6b10ac2d07}.xml" />
+    <Content Include="Entities\new_supportticket\FormXml\quick\{dd664642-fd44-49b5-9965-0d6b10ac2d07}_managed.xml" />
+    <Content Include="Entities\new_supportticket\RibbonDiff.xml" />
+    <Content Include="Entities\new_supportticket\SavedQueries\{06817114-2500-4e5c-812d-05fdd79ac7b2}.xml" />
+    <Content Include="Entities\new_supportticket\SavedQueries\{1c6bdf10-13d9-465f-8c52-01a06767e0be}.xml" />
+    <Content Include="Entities\new_supportticket\SavedQueries\{29fe558c-9da2-e711-80e3-3863bb358fa8}.xml" />
+    <Content Include="Entities\new_supportticket\SavedQueries\{358e663d-6b2b-4185-88d9-8b837fc81bbe}.xml" />
+    <Content Include="Entities\new_supportticket\SavedQueries\{55c7eb89-4bf0-42b2-8ae8-04b554535328}.xml" />
+    <Content Include="Entities\new_supportticket\SavedQueries\{8005d218-543b-4f6a-9e7e-8e9f5345fe00}.xml" />
+    <Content Include="Entities\new_supportticket\SavedQueries\{d05b0f20-aebd-4e9e-989d-cc1a1a33bd65}.xml" />
     <Content Include="Other\Customizations.xml" />
     <Content Include="Other\Relationships.xml" />
     <Content Include="Other\Solution.xml" />
   </ItemGroup>
-
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
@@ -64,17 +240,18 @@
   </Target>
   <Target Name="AfterBuild">
   </Target>-->
-  
   <Target Name="Build">
-	<Message Text="Starting Build actions ..."></Message>
+    <Message Text="Starting Build actions ...">
+    </Message>
     <Exec Command="&quot;$(SolutionDir)\ALMPOC.Tools\coretools\SolutionPackager.exe&quot; /action:pack /packagetype:both /folder:&quot;$(MSBuildProjectDirectory)&quot; /zipfile:&quot;$(OutDir)$(MSBuildProjectName).zip&quot; /map:&quot;$(SolutionDir)\ALMPOC.Tools\Mappings\ALMPOC.CRM.Schema-mapping.xml&quot;" />
   </Target>
-  
   <ItemGroup>
     <SolutionPackages Include="$(OutDir)$(MSBuildProjectName)*.zip" />
   </ItemGroup>
   <Target Name="AfterBuild">
-    <Message Text="Starting Post-Build actions ..."></Message>
-	<Copy SourceFiles="@(SolutionPackages)" DestinationFolder="$(SolutionDir)ALMPOC.SolutionPackage\PkgFolder"></Copy>
+    <Message Text="Starting Post-Build actions ...">
+    </Message>
+    <Copy SourceFiles="@(SolutionPackages)" DestinationFolder="$(SolutionDir)ALMPOC.SolutionPackage\PkgFolder">
+    </Copy>
   </Target>
 </Project>

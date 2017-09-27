@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps>
+  <EntityMap>
+    <EntitySource>account</EntitySource>
+    <EntityTarget>new_supportticket</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>new_nacecode</EntitySource>
+    <EntityTarget>account</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+</EntityMaps>

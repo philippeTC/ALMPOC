@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{8448b78f-8f42-454e-8e2a-f8196b0419af}</formid>
+  <IntroducedVersion>5.0.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form showImage="true">
+    <tabs>
+      <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" ordinalvalue="0">
+        <columns>
+          <column width="28%" id="0">
+            <sections>
+              <section name="ACCOUNT_INFORMATION" showlabel="true" showbar="false" id="{0eb92e6c-bcb8-0d52-a188-d81543ddb7cd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{848d4a5c-8ad0-a686-e926-48de178eaba6}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="new_nacecodeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_nacecodeid" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="tabTickets" id="{39c33aba-0078-7669-a32e-78e5d426ee46}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="2" solutionaction="Added">
+        <labels>
+          <label description="Tickets" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%" id="0">
+            <sections>
+              <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{9e34ae55-b495-0720-9e24-3e1e923ec327}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{3d60274a-58a5-a729-a8a8-51b04e802185}" showlabel="true" colspan="1" auto="false" rowspan="6" ordinalvalue="10000">
+                      <labels>
+                        <label description="Support Tickets (Account)" languagecode="1033" />
+                      </labels>
+                      <control id="Tickets" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{be5dd02e-956e-c0d4-1561-c9197c30d6a7}">
+                        <parameters>
+                          <ViewId>{8005D218-543B-4F6A-9E7E-8E9F5345FE00}</ViewId>
+                          <IsUserView>false</IsUserView>
+                          <RelationshipName>new_account_new_supportticket</RelationshipName>
+                          <TargetEntityType>new_supportticket</TargetEntityType>
+                          <AutoExpand>Fixed</AutoExpand>
+                          <EnableQuickFind>true</EnableQuickFind>
+                          <EnableViewPicker>false</EnableViewPicker>
+                          <ViewIds>{8005D218-543B-4F6A-9E7E-8E9F5345FE00}</ViewIds>
+                          <EnableJumpBar>false</EnableJumpBar>
+                          <ChartGridMode>Grid</ChartGridMode>
+                          <VisualizationId />
+                          <IsUserChart>false</IsUserChart>
+                          <EnableChartPicker>false</EnableChartPicker>
+                          <RecordsPerPage>4</RecordsPerPage>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <Navigation>
+      <NavBar />
+      <NavBarAreas solutionaction="Added">
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <controlDescriptions solutionaction="Added" />
+  </form>
+  <LocalizedNames>
+    <LocalizedName description="Account" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Updated default Account form." languagecode="1033" />
+  </Descriptions>
+</systemform>

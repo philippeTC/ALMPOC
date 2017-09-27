@@ -2,5 +2,6 @@
 <Entity>
   <Name LocalizedName="Case" OriginalName="Case">Incident</Name>
   <ObjectTypeCode>112</ObjectTypeCode>
+  <FormXml />
   <RibbonDiffXml />
 </Entity>
