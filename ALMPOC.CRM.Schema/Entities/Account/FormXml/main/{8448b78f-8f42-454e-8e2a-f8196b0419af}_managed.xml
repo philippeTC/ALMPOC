@@ -13,61 +13,11 @@
               <section name="ACCOUNT_INFORMATION" showlabel="true" showbar="false" id="{0eb92e6c-bcb8-0d52-a188-d81543ddb7cd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
                 <rows>
                   <row>
-                    <cell id="{b0e82a7e-5683-d90c-308a-0d779377ea8a}" showlabel="true" ordinalvalue="10001" solutionaction="Modified" />
-                  </row>
-                  <row>
-                    <cell id="{3441a91e-47c5-672c-7a20-902d6baa9036}" showlabel="true" ordinalvalue="10002" solutionaction="Modified" />
-                  </row>
-                  <row>
-                    <cell id="{8b98a55e-a345-b20e-d46e-801e79d5c1c1}" showlabel="true" ordinalvalue="10003" solutionaction="Modified" />
-                  </row>
-                  <row>
-                    <cell id="{e6441984-4343-813a-aa7e-e2747ad35390}" showlabel="true" ordinalvalue="10004" solutionaction="Modified" />
-                  </row>
-                  <row>
-                    <cell id="{87DE203E-B03C-44CC-8B06-438202B82553}" ordinalvalue="10005" solutionaction="Modified" />
-                  </row>
-                  <row>
-                    <cell id="{5f38af3a-3307-47dc-b36d-d9a5de525e6e}" showlabel="true" ordinalvalue="10007" solutionaction="Modified" />
-                  </row>
-                  <row>
-                    <cell id="{0e6be52c-1609-b859-52d5-49042349d4ae}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
-                      <labels>
-                        <label description="" languagecode="1033" />
-                      </labels>
-                      <control id="new_hans1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_hans1" disabled="false" />
-                    </cell>
-                  </row>
-                  <row>
-                    <cell id="{9d319791-99dd-d289-e161-6ddd94ba5e30}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Added">
-                      <labels>
-                        <label description="" languagecode="1033" />
-                      </labels>
-                      <control id="new_philippe1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_philippe1" disabled="false" />
-                    </cell>
-                  </row>
-                  <row>
-                    <cell id="{848d4a5c-8ad0-a686-e926-48de178eaba6}" showlabel="true" locklevel="0" ordinalvalue="10008" solutionaction="Added">
+                    <cell id="{848d4a5c-8ad0-a686-e926-48de178eaba6}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Added">
                       <labels>
                         <label description="" languagecode="1033" />
                       </labels>
                       <control id="new_nacecodeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_nacecodeid" disabled="false" />
-                    </cell>
-                  </row>
-                  <row>
-                    <cell id="{8443385d-0e1d-5459-a5a5-eece2e37bec2}" showlabel="true" locklevel="0" ordinalvalue="10009" solutionaction="Added">
-                      <labels>
-                        <label description="" languagecode="1033" />
-                      </labels>
-                      <control id="new_philippe2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_philippe2" disabled="false" />
-                    </cell>
-                  </row>
-                  <row>
-                    <cell id="{ade67be8-d55d-c5a9-78bb-72eb669e6725}" showlabel="true" locklevel="0" ordinalvalue="10010" solutionaction="Added">
-                      <labels>
-                        <label description="" languagecode="1033" />
-                      </labels>
-                      <control id="new_philippe3" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_philippe3" disabled="false" />
                     </cell>
                   </row>
                 </rows>
