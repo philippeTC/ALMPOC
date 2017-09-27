@@ -235,6 +235,8 @@
     <Content Include="PluginAssemblies\ALMPOCCRMPlugin-B1A0D6A5-8664-4786-90D0-A565C899ADDA\ALMPOCCRMPlugin.dll" />
     <Content Include="PluginAssemblies\ALMPOCCRMPlugin-B1A0D6A5-8664-4786-90D0-A565C899ADDA\ALMPOCCRMPlugin.dll.data.xml" />
     <Content Include="SdkMessageProcessingSteps\{640c0b48-61a3-e711-80e4-1458d04377a8}.xml" />
+    <Content Include="WebResources\new_\account.js" />
+    <Content Include="WebResources\new_\account.js.data.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -2,7 +2,7 @@
 <Mapping>
 <!--  <FileToFile map="WebResources\nf_MyComponent\Images\test_image.jpg" to="..\Project.Solution1.WebResources\MyComponent\Images\test_image.jpg" />
  -->
-
+  <FileToFile map="WebResources\new_\account.js" to="..\ALMPOC.CRM.Webresources\scripts\account.js" />
 
   <FileToFile map="PluginAssemblies\**\ALMPOCCRMPlugin.dll" to="..\ALMPOC.CRM.Plugin\bin\**\ALMPOC.CRM.Plugin.dll" />
 

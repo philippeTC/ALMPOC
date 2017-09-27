@@ -44,6 +44,7 @@
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
       <EntityRelationshipRole>
+        <NavigationPropertyName>account_parent_account</NavigationPropertyName>
         <RelationshipRoleType>0</RelationshipRoleType>
       </EntityRelationshipRole>
     </EntityRelationshipRoles>
@@ -74,6 +75,7 @@
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
       <EntityRelationshipRole>
+        <NavigationPropertyName>contact_customer_accounts</NavigationPropertyName>
         <RelationshipRoleType>0</RelationshipRoleType>
       </EntityRelationshipRole>
     </EntityRelationshipRoles>
@@ -104,6 +106,7 @@
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
       <EntityRelationshipRole>
+        <NavigationPropertyName>incident_customer_accounts</NavigationPropertyName>
         <RelationshipRoleType>0</RelationshipRoleType>
       </EntityRelationshipRole>
     </EntityRelationshipRoles>

@@ -4,7 +4,7 @@
   <IntroducedVersion>5.0.0.0</IntroducedVersion>
   <FormPresentation>1</FormPresentation>
   <FormActivationState>1</FormActivationState>
-  <form showImage="true">
+  <form showImage="true" shownavigationbar="true" maxWidth="1900" solutionaction="Modified">
     <tabs>
       <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" ordinalvalue="0">
         <columns>
@@ -138,6 +138,16 @@
       </NavBarAreas>
     </Navigation>
     <controlDescriptions solutionaction="Added" />
+    <formLibraries solutionaction="Added">
+      <Library name="new_/account.js" libraryUniqueId="{8c97754b-c9c5-67ee-4627-11de4ca68e09}" />
+    </formLibraries>
+    <events solutionaction="Added">
+      <event name="onload" application="false" active="false">
+        <Handlers>
+          <Handler functionName="Infront.account.Form_Onload" libraryName="new_/account.js" handlerUniqueId="{1dc56b3a-8579-918c-9351-d86a6a0e69d5}" enabled="true" parameters="" passExecutionContext="false" />
+        </Handlers>
+      </event>
+    </events>
   </form>
   <LocalizedNames>
     <LocalizedName description="Account" languagecode="1033" />

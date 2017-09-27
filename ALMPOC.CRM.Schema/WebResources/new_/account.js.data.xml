@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{fa2174f3-73a3-e711-80e3-3863bb358fa8}</WebResourceId>
+  <Name>new_/account.js</Name>
+  <DisplayName>new_/account.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/new_accountjsFA2174F3-73A3-E711-80E3-3863BB358FA8</FileName>
+</WebResource>
