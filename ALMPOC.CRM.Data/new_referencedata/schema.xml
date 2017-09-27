@@ -1,7 +1,0 @@
-<entities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <entity name="new_referencedata" displayname="ReferenceData" etc="10188" primaryidfield="new_referencedataid" primarynamefield="new_name" disableplugins="false">
-    <fields>
-      <field displayname="Name" name="new_name" type="string" customfield="true" />
-    </fields>
-  </entity>
-</entities>

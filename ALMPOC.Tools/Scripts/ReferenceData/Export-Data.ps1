@@ -1,4 +1,7 @@
-﻿$crmOrg = New-Object `         
+﻿# Importing common functions
+. .\..\common\ReferenceData.Common.ps1
+
+$crmOrg = New-Object `         
    -TypeName Microsoft.Xrm.Tooling.Connector.CrmServiceClient `         
    -ArgumentList ([System.Net.CredentialCache]::DefaultNetworkCredentials),             ([Microsoft.Xrm.Tooling.Connector.AuthenticationType]::AD) 
 ,            $serverName 
