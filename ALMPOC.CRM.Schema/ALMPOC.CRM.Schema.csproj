@@ -229,12 +229,33 @@
     <Content Include="Entities\new_supportticket\SavedQueries\{55c7eb89-4bf0-42b2-8ae8-04b554535328}.xml" />
     <Content Include="Entities\new_supportticket\SavedQueries\{8005d218-543b-4f6a-9e7e-8e9f5345fe00}.xml" />
     <Content Include="Entities\new_supportticket\SavedQueries\{d05b0f20-aebd-4e9e-989d-cc1a1a33bd65}.xml" />
+    <Content Include="Entities\new_test\Entity.xml" />
+    <Content Include="Entities\new_test\FormXml\card\{f4ca688d-d7f6-468b-b618-430147111c36}.xml" />
+    <Content Include="Entities\new_test\FormXml\card\{f4ca688d-d7f6-468b-b618-430147111c36}_managed.xml" />
+    <Content Include="Entities\new_test\FormXml\mainInteractionCentric\{dcf94c7b-e3b6-43cd-817d-d2d0e204024e}.xml" />
+    <Content Include="Entities\new_test\FormXml\mainInteractionCentric\{dcf94c7b-e3b6-43cd-817d-d2d0e204024e}_managed.xml" />
+    <Content Include="Entities\new_test\FormXml\main\{b5e8edb5-f5f8-4144-a8b6-26c5797a5cbe}.xml" />
+    <Content Include="Entities\new_test\FormXml\main\{b5e8edb5-f5f8-4144-a8b6-26c5797a5cbe}_managed.xml" />
+    <Content Include="Entities\new_test\FormXml\mobile\{b7395216-afcc-424d-b4b5-51a12bb6c4c7}.xml" />
+    <Content Include="Entities\new_test\FormXml\mobile\{b7395216-afcc-424d-b4b5-51a12bb6c4c7}_managed.xml" />
+    <Content Include="Entities\new_test\FormXml\quick\{dbfd648c-35ac-4c4a-9d4d-601741292f11}.xml" />
+    <Content Include="Entities\new_test\FormXml\quick\{dbfd648c-35ac-4c4a-9d4d-601741292f11}_managed.xml" />
+    <Content Include="Entities\new_test\RibbonDiff.xml" />
+    <Content Include="Entities\new_test\SavedQueries\{0a1eb0fb-22a7-477d-8d19-2492e75feaae}.xml" />
+    <Content Include="Entities\new_test\SavedQueries\{37ded005-0dc9-4062-8c68-f4e60bbb05cb}.xml" />
+    <Content Include="Entities\new_test\SavedQueries\{6038ff3d-6c7f-444e-a71c-2282017acc99}.xml" />
+    <Content Include="Entities\new_test\SavedQueries\{759b2788-7ca3-e711-80e2-3863bb35af60}.xml" />
+    <Content Include="Entities\new_test\SavedQueries\{8208ba98-510b-48ef-ac5f-9593e8071026}.xml" />
+    <Content Include="Entities\new_test\SavedQueries\{b67117a2-c3bd-4bf4-819f-6213b4bb4cae}.xml" />
+    <Content Include="Entities\new_test\SavedQueries\{db6e9c92-6989-49cf-886c-b08540f4a853}.xml" />
     <Content Include="Other\Customizations.xml" />
     <Content Include="Other\Relationships.xml" />
     <Content Include="Other\Solution.xml" />
     <Content Include="PluginAssemblies\ALMPOCCRMPlugin-B1A0D6A5-8664-4786-90D0-A565C899ADDA\ALMPOCCRMPlugin.dll" />
     <Content Include="PluginAssemblies\ALMPOCCRMPlugin-B1A0D6A5-8664-4786-90D0-A565C899ADDA\ALMPOCCRMPlugin.dll.data.xml" />
     <Content Include="SdkMessageProcessingSteps\{640c0b48-61a3-e711-80e4-1458d04377a8}.xml" />
+    <Content Include="WebResources\new_\account.js" />
+    <Content Include="WebResources\new_\account.js.data.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,6 +9,7 @@
   <EntityRelationship Name="business_unit_incidents" />
   <EntityRelationship Name="business_unit_new_nacecode" />
   <EntityRelationship Name="business_unit_new_supportticket" />
+  <EntityRelationship Name="business_unit_new_test" />
   <EntityRelationship Name="contact_as_primary_contact" />
   <EntityRelationship Name="contact_as_responsible_contact" />
   <EntityRelationship Name="contact_customer_accounts" />
@@ -47,6 +48,8 @@
   <EntityRelationship Name="lk_new_nacecode_modifiedby" />
   <EntityRelationship Name="lk_new_supportticket_createdby" />
   <EntityRelationship Name="lk_new_supportticket_modifiedby" />
+  <EntityRelationship Name="lk_new_test_createdby" />
+  <EntityRelationship Name="lk_new_test_modifiedby" />
   <EntityRelationship Name="manualsla_account" />
   <EntityRelationship Name="manualsla_cases" />
   <EntityRelationship Name="manualsla_contact" />
@@ -57,6 +60,7 @@
   <EntityRelationship Name="owner_incidents" />
   <EntityRelationship Name="owner_new_nacecode" />
   <EntityRelationship Name="owner_new_supportticket" />
+  <EntityRelationship Name="owner_new_test" />
   <EntityRelationship Name="price_level_accounts" />
   <EntityRelationship Name="price_level_contacts" />
   <EntityRelationship Name="product_incidents" />
@@ -77,10 +81,12 @@
   <EntityRelationship Name="team_incidents" />
   <EntityRelationship Name="team_new_nacecode" />
   <EntityRelationship Name="team_new_supportticket" />
+  <EntityRelationship Name="team_new_test" />
   <EntityRelationship Name="territory_accounts" />
   <EntityRelationship Name="transactioncurrency_account" />
   <EntityRelationship Name="transactioncurrency_contact" />
   <EntityRelationship Name="user_accounts" />
   <EntityRelationship Name="user_new_nacecode" />
   <EntityRelationship Name="user_new_supportticket" />
+  <EntityRelationship Name="user_new_test" />
 </EntityRelationships>

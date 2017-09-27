@@ -4,7 +4,7 @@
   <IntroducedVersion>5.0.0.0</IntroducedVersion>
   <FormPresentation>1</FormPresentation>
   <FormActivationState>1</FormActivationState>
-  <form showImage="true">
+  <form showImage="true" shownavigationbar="true" maxWidth="1900">
     <ancestor id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
     <hiddencontrols>
       <data id="address1_addressid" datafieldname="address1_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
@@ -804,6 +804,16 @@
       </NavBarAreas>
     </Navigation>
     <controlDescriptions />
+    <formLibraries>
+      <Library name="new_/account.js" libraryUniqueId="{8c97754b-c9c5-67ee-4627-11de4ca68e09}" />
+    </formLibraries>
+    <events>
+      <event name="onload" application="false" active="false">
+        <Handlers>
+          <Handler functionName="Infront.account.Form_Onload" libraryName="new_/account.js" handlerUniqueId="{1dc56b3a-8579-918c-9351-d86a6a0e69d5}" enabled="true" parameters="" passExecutionContext="false" />
+        </Handlers>
+      </event>
+    </events>
     <DisplayConditions FallbackForm="true" Order="2">
       <Everyone />
     </DisplayConditions>
