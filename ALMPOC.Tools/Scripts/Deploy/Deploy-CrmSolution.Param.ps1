@@ -11,7 +11,7 @@
 #>
 
 # Importing common functions
-. .\CrmSolution.Common.ps1
+. .\..\common\CrmSolution.Common.ps1
 
 # Defaulting to increased verbosity for manual execution
 $oldverbose = $VerbosePreference
