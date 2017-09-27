@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="new_nacecode\new_nacecode_data.zip" />
     <None Include="new_referencedata\data.zip" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="new_nacecode\new_nacecode_schema.xml" />
     <Content Include="new_referencedata\schema.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

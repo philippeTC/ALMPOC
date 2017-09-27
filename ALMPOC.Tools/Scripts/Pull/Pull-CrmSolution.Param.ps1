@@ -11,7 +11,7 @@
 #>
 
 # Importing common functions
-. .\CrmSolution.Common.ps1
+. .\..\common\CrmSolution.Common.ps1
 
 # Defaulting to increased verbosity for manual execution
 $oldverbose = $VerbosePreference
@@ -25,8 +25,8 @@ try
     -username (Get-CrmUsername "ALMPOC.CRM.Schema") `
     -password (Get-CrmPassword "ALMPOC.CRM.Schema") `
     -solutionName "MainSolution" `
-    -solutionRootFolder "..\..\ALMPOC.CRM.Schema" `
-    -solutionMapFile "..\Mappings\ALMPOC.CRM.Schema-mapping.xml"
+    -solutionRootFolder "..\..\..\ALMPOC.CRM.Schema" `
+    -solutionMapFile "..\..\Mappings\ALMPOC.CRM.Schema-mapping.xml"
 
   # Include a new entry for each CRM solution to be synced against a project folder
 

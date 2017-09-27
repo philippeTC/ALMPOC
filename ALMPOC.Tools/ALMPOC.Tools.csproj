@@ -45,12 +45,15 @@
   <ItemGroup>
     <None Include="coretools\CrmSvcUtil.exe.config" />
     <None Include="coretools\LicenseTerms.docx" />
-    <None Include="Scripts\CrmSolution.Common.ps1" />
-    <None Include="Scripts\Deploy-CrmSolution.Param.ps1" />
-    <None Include="Scripts\Deploy-CrmSolution.ps1" />
-    <None Include="Scripts\Pull-CrmSolution.Param.ps1" />
-    <None Include="Scripts\Pull-CrmSolution.ps1" />
+    <None Include="Scripts\common\CrmSolution.Common.ps1" />
+    <None Include="Scripts\common\ReferenceData.Common.ps1" />
+    <None Include="Scripts\Deploy\Deploy-CrmSolution.Param.ps1" />
+    <None Include="Scripts\Deploy\Deploy-CrmSolution.ps1" />
+    <None Include="Scripts\Pull\Pull-CrmSolution.Param.ps1" />
+    <None Include="Scripts\Pull\Pull-CrmSolution.ps1" />
     <None Include="Scripts\Initialise.ps1" />
+    <None Include="Scripts\ReferenceData\Export-Data.ps1" />
+    <None Include="Scripts\ReferenceData\Import-Data.ps1" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="coretools\CrmSvcUtil.exe" />

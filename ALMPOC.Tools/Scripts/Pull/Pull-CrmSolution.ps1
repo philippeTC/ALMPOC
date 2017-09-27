@@ -102,7 +102,7 @@ Remove-Item -Recurse $solutionRootFolder  -Force -exclude *.csproj
 Write-Verbose "Unpacking exported solution..."
 if($solutionMapFile -eq "")
 {
-	.\..\coretools\SolutionPackager.exe `
+	.\..\..\coretools\SolutionPackager.exe `
 	/a:extract `
 	/packagetype:both `
 	/f:"$solutionRootFolder" `
@@ -112,7 +112,7 @@ if($solutionMapFile -eq "")
 else
 {
 	Write-Verbose "Using mapping file $solutionMapFile for unpacking"
-	.\..\coretools\SolutionPackager.exe `
+	.\..\..\coretools\SolutionPackager.exe `
 	/a:extract `
 	/packagetype:both `
 	/f:"$solutionRootFolder" `
