@@ -288,5 +288,5 @@ __pycache__/
 *.xsd.cs
 
 # PDB: CUSTOM IGNORES
-MainSolution_export.zip
-MainSolution_export_Managed.zip
+**/*_export.zip
+**/*_export_Managed.zip
