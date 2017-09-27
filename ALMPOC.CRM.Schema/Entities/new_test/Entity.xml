@@ -11,7 +11,7 @@
         <LocalizedCollectionName description="Tests" languagecode="1033" />
       </LocalizedCollectionNames>
       <Descriptions>
-        <Description description="" languagecode="1033" />
+        <Description description="qsdfqsdfqsdfqsdfqsdf" languagecode="1033" />
       </Descriptions>
       <attributes>
         <attribute PhysicalName="CreatedBy">
@@ -106,6 +106,39 @@
           </displaynames>
           <Descriptions>
             <Description description="Unique identifier of the delegate user who created the record." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="EmailAddress">
+          <Type>nvarchar</Type>
+          <Name>emailaddress</Name>
+          <LogicalName>emailaddress</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <Format>email</Format>
+          <MaxLength>100</MaxLength>
+          <displaynames>
+            <displayname description="Email Address" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="The primary email address for the entity." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ImportSequenceNumber">
@@ -765,7 +798,7 @@
       <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
       <IsCollaboration>0</IsCollaboration>
       <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
-      <IsConnectionsEnabled>0</IsConnectionsEnabled>
+      <IsConnectionsEnabled>1</IsConnectionsEnabled>
       <EntityColor></EntityColor>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
@@ -777,7 +810,7 @@
       <IsAuditEnabled>0</IsAuditEnabled>
       <IsActivity>0</IsActivity>
       <ActivityTypeMask></ActivityTypeMask>
-      <IsActivityParty>0</IsActivityParty>
+      <IsActivityParty>1</IsActivityParty>
       <IsReplicated>0</IsReplicated>
       <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
       <IsMailMergeEnabled>1</IsMailMergeEnabled>
@@ -813,6 +846,7 @@
       <EnforceStateTransitions>0</EnforceStateTransitions>
       <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
       <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <EntityHelpUrl></EntityHelpUrl>
       <ChangeTrackingEnabled>0</ChangeTrackingEnabled>
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>

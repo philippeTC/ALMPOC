@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>0</isdefault>
+  <returnedtypecode>10008</returnedtypecode>
+  <savedqueryid>{c86108b9-7ea3-e711-80e3-3863bb358fa8}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10008" jump="new_name" select="1" preview="1" icon="1">
+      <row name="result" id="new_testid">
+        <cell name="new_name" width="150" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" output-format="xml-platform" mapping="logical">
+      <entity name="new_test">
+        <attribute name="new_name" />
+        <order attribute="new_name" descending="false" />
+        <attribute name="new_testid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Failed Tests View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>
