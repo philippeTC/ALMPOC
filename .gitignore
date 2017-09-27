@@ -288,4 +288,5 @@ __pycache__/
 *.xsd.cs
 
 # PDB: CUSTOM IGNORES
-Pull-CrmSolution.Param.ps1
+MainSolution_export.zip
+MainSolution_export_Managed.zip

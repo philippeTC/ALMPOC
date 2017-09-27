@@ -79,6 +79,14 @@
                     </cell>
                   </row>
                   <row>
+                    <cell id="{9d319791-99dd-d289-e161-6ddd94ba5e30}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Philippe1" languagecode="1033" />
+                      </labels>
+                      <control id="new_philippe1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_philippe1" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
                     <cell id="{5f38af3a-3307-47dc-b36d-d9a5de525e6e}" showlabel="true">
                       <labels>
                         <label description="Ticker Symbol" languagecode="1033" />
@@ -92,6 +100,22 @@
                         <label description="NACE code" languagecode="1033" />
                       </labels>
                       <control id="new_nacecodeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_nacecodeid" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{8443385d-0e1d-5459-a5a5-eece2e37bec2}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Philippe2" languagecode="1033" />
+                      </labels>
+                      <control id="new_philippe2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_philippe2" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{ade67be8-d55d-c5a9-78bb-72eb669e6725}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Philippe3" languagecode="1033" />
+                      </labels>
+                      <control id="new_philippe3" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_philippe3" disabled="false" />
                     </cell>
                   </row>
                 </rows>
