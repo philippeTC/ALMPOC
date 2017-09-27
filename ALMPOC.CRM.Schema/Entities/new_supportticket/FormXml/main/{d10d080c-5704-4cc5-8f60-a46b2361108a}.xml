@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{d10d080c-5704-4cc5-8f60-a46b2361108a}</formid>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{f73ec517-e483-4803-9c85-92169a003b32}" IsUserDefined="1">
+        <labels>
+          <label description="General" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="33%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{42e42fb7-156a-48bb-96a2-a548d4ee0176}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{f43f3a5a-cc10-4aa0-a64b-bfd40e936d80}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{a4de5071-089b-41c3-bd55-30675e266e7d}">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="66%">
+            <sections>
+              <section showlabel="false" showbar="false" id="{545378f4-20e9-4a22-8f0c-bc8aa0f3d1f1}" IsUserDefined="0" height="auto">
+                <labels>
+                  <label description="Notes" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell showlabel="false" rowspan="15" auto="false" id="{7468791c-4102-47bc-ab70-27958719a83b}">
+                      <labels>
+                        <label description="Note Text" languagecode="1033" />
+                      </labels>
+                      <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                        <parameters>
+                          <DefaultTabId>NotesTab</DefaultTabId>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row height="auto" />
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

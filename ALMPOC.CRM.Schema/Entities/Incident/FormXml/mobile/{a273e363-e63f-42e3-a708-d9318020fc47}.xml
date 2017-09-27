@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform unmodified="1">
+  <formid>{a273e363-e63f-42e3-a708-d9318020fc47}</formid>
+  <IntroducedVersion>5.0.0.0</IntroducedVersion>
+  <FormPresentation>0</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form enablerelatedinformation="false" relatedInformationCollapsed="true">
+    <tabs>
+      <tab name="general" verticallayout="true" id="{ae5e0a32-2658-4ce7-82f5-5a8aee73ab9f}" IsUserDefined="0">
+        <labels>
+          <label description="General" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section name="account information" showlabel="false" showbar="false" id="{74110a0d-e476-4284-b4b3-a921ee17e6b4}" IsUserDefined="0">
+                <labels>
+                  <label description="Information" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{4cc7b57c-a032-4f6a-a538-d7fcaa61810a}">
+                      <labels>
+                        <label description="Case Title" languagecode="1033" />
+                      </labels>
+                      <control id="title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="title" disabled="false" />
+                    </cell>
+                    <cell id="{bed6c380-69c2-4360-8304-cb9303fc2f2e}">
+                      <labels>
+                        <label description="Customer" languagecode="1033" />
+                      </labels>
+                      <control id="customerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="customerid" disabled="false" />
+                    </cell>
+                    <cell id="{c0de48cc-ff75-4ece-874f-0e397e7b8ec2}">
+                      <labels>
+                        <label description="Contact" languagecode="1033" />
+                      </labels>
+                      <control id="primarycontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="primarycontactid" disabled="false" />
+                    </cell>
+                    <cell id="{cb4216c1-b72c-4ec0-a763-6a2f50cc1c73}">
+                      <labels>
+                        <label description="Product" languagecode="1033" />
+                      </labels>
+                      <control id="productid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="productid" disabled="false" />
+                    </cell>
+                    <cell id="{10a39db7-9358-4f71-9ea1-fcc1b99dd762}">
+                      <labels>
+                        <label description="Priority" languagecode="1033" />
+                      </labels>
+                      <control id="prioritycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="prioritycode" disabled="false" />
+                    </cell>
+                    <cell id="{9cb2c12b-b674-467b-8290-5e2ee437bd34}">
+                      <labels>
+                        <label description="Service Level" languagecode="1033" />
+                      </labels>
+                      <control id="contractservicelevelcode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="contractservicelevelcode" disabled="false" />
+                    </cell>
+                    <cell id="{2fc93425-20b7-4ba9-aa83-6b5e635c59e3}">
+                      <labels>
+                        <label description="Description" languagecode="1033" />
+                      </labels>
+                      <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
+                    </cell>
+                    <cell id="{0d864d18-5072-43e4-b76e-c3fb30dba30c}">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                    </cell>
+                    <cell id="{3b4c22ac-61f1-4e92-b6d8-8e0cf7d4168d}">
+                      <labels>
+                        <label description="Status" languagecode="1033" />
+                      </labels>
+                      <control id="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+  </form>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="This is the form that is displayed for the Dynamics 365 Mobile application." languagecode="1033" />
+  </Descriptions>
+</systemform>
