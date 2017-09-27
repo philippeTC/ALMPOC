@@ -26,6 +26,38 @@
           </column>
         </columns>
       </tab>
+      <tab name="DETAILS_TAB" id="{11a42c72-9ded-ea04-253d-2143e731b795}" IsUserDefined="0" showlabel="true" expanded="true" ordinalvalue="1">
+        <columns>
+          <column width="34%" id="0">
+            <sections>
+              <section name="COMPANY_PROFILE" showlabel="true" showbar="false" id="{ca8587c5-18c0-cac1-7c34-6c639eade090}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{59782911-4d1a-38dc-ce49-7dae620dbc51}" showlabel="true" ordinalvalue="10001" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{930beba3-d531-0808-c403-de95e2ac3e62}" showlabel="true" ordinalvalue="10002" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{1c33ad89-92a1-8433-2378-306259eb57c0}" showlabel="true" ordinalvalue="10003" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{a56cc0cd-350e-2901-599b-761d7736e569}" showlabel="false" userspacer="true" ordinalvalue="10004" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{6b560c78-a905-5e69-53b3-2e06c6cba42e}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="new_hans2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_hans2" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
       <tab name="tabTickets" id="{39c33aba-0078-7669-a32e-78e5d426ee46}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="2" solutionaction="Added">
         <labels>
           <label description="Tickets" languagecode="1033" />
