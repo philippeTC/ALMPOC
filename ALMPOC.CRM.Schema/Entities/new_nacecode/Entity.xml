@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="NACE code" OriginalName="NACE code">new_nacecode</Name>
-  <ObjectTypeCode>10005</ObjectTypeCode>
+  <ObjectTypeCode>10189</ObjectTypeCode>
   <EntityInfo>
     <entity Name="new_nacecode">
       <LocalizedNames>
@@ -789,7 +789,7 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10005</PrimaryEntityTypeCode>
+      <PrimaryEntityTypeCode>10189</PrimaryEntityTypeCode>
       <CustomControlDefaultConfigId>{27df9ff9-9ba2-e711-80e3-3863bb358fa8}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />

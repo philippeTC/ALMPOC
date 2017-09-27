@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships>
-  <EntityRelationship Name="account_primary_contact" unmodified="1">
+  <EntityRelationship Name="account_primary_contact">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -18,7 +18,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="contact_as_primary_contact" unmodified="1">
+  <EntityRelationship Name="contact_as_primary_contact">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>6.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -36,7 +36,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="contact_as_responsible_contact" unmodified="1">
+  <EntityRelationship Name="contact_as_responsible_contact">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -54,7 +54,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="contact_customer_contacts" unmodified="1">
+  <EntityRelationship Name="contact_customer_contacts">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -79,9 +79,13 @@
         <NavigationPropertyName>parentcustomerid_contact</NavigationPropertyName>
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>contact_customer_contacts</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>
-  <EntityRelationship Name="contact_master_contact" unmodified="1">
+  <EntityRelationship Name="contact_master_contact">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -99,7 +103,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="incident_customer_contacts" unmodified="1">
+  <EntityRelationship Name="incident_customer_contacts">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -123,6 +127,10 @@
         <NavPaneOrder>10</NavPaneOrder>
         <NavigationPropertyName>customerid_contact</NavigationPropertyName>
         <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>incident_customer_contacts</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
       </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>

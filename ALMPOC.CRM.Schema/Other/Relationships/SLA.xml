@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships>
-  <EntityRelationship Name="manualsla_account" unmodified="1">
+  <EntityRelationship Name="manualsla_account">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -26,9 +26,13 @@
         <NavigationPropertyName>sla_account_sla</NavigationPropertyName>
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>manualsla_account</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>
-  <EntityRelationship Name="manualsla_cases" unmodified="1">
+  <EntityRelationship Name="manualsla_cases">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -53,9 +57,13 @@
         <NavigationPropertyName>slaid_sla</NavigationPropertyName>
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>manualsla_cases</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>
-  <EntityRelationship Name="manualsla_contact" unmodified="1">
+  <EntityRelationship Name="manualsla_contact">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -81,9 +89,13 @@
         <NavigationPropertyName>sla_contact_sla</NavigationPropertyName>
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>manualsla_contact</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>
-  <EntityRelationship Name="sla_account" unmodified="1">
+  <EntityRelationship Name="sla_account">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -102,7 +114,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="sla_cases" unmodified="1">
+  <EntityRelationship Name="sla_cases">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>6.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -120,7 +132,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="sla_contact" unmodified="1">
+  <EntityRelationship Name="sla_contact">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>

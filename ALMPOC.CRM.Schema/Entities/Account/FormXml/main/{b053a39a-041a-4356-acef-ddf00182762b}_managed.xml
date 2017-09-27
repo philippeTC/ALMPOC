@@ -7,7 +7,25 @@
   <form showImage="true">
     <tabs>
       <tab name="general" verticallayout="true" id="{13b0fbf2-e596-4dc5-919b-7a0aea72598b}" IsUserDefined="0" ordinalvalue="1" solutionaction="Modified" />
-      <tab name="details" id="{e8642bdb-3b0b-4ce4-bcca-646d04e856cb}" IsUserDefined="0" ordinalvalue="2" solutionaction="Modified" />
+      <tab name="details" id="{e8642bdb-3b0b-4ce4-bcca-646d04e856cb}" IsUserDefined="0" ordinalvalue="2" solutionaction="Modified">
+        <columns>
+          <column width="100%" id="0">
+            <sections>
+              <section name="billing information" showlabel="true" showbar="true" id="{0243b19c-f88a-410c-9d90-0862142c56e2}" IsUserDefined="0" ordinalvalue="2">
+                <rows>
+                  <row>
+                    <cell id="{1eefa848-c48d-47c9-8ff4-796403c5a51a}" ordinalvalue="20003">
+                      <labels>
+                        <label description="Price List" languagecode="1033" solutionaction="Modified" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
       <tab name="contacts" id="{52c46fc3-c588-42d2-b24a-764536e3ce79}" IsUserDefined="0" ordinalvalue="3" solutionaction="Modified" />
       <tab name="notes and activities" id="{61710424-A7C1-4db5-9489-788BCDCF267A}" IsUserDefined="0" expanded="false" ordinalvalue="4" solutionaction="Modified" />
       <tab name="administration" id="{5b8906be-c80f-4c26-8ba2-b07f45cb2936}" IsUserDefined="0" ordinalvalue="5" solutionaction="Modified">

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="Support Ticket" OriginalName="Support Ticket">new_supportticket</Name>
-  <ObjectTypeCode>10007</ObjectTypeCode>
+  <ObjectTypeCode>10190</ObjectTypeCode>
   <EntityInfo>
     <entity Name="new_supportticket">
       <LocalizedNames>
@@ -241,6 +241,7 @@
           <LogicalName>new_accountid</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -824,7 +825,7 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10007</PrimaryEntityTypeCode>
+      <PrimaryEntityTypeCode>10190</PrimaryEntityTypeCode>
       <CustomControlDefaultConfigId>{42245f7f-9da2-e711-80e3-3863bb358fa8}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />

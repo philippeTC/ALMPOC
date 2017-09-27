@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships>
-  <EntityRelationship Name="entitlement_cases" unmodified="1">
+  <EntityRelationship Name="entitlement_cases">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>6.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -24,6 +24,10 @@
         <NavPaneOrder>10000</NavPaneOrder>
         <NavigationPropertyName>entitlementid</NavigationPropertyName>
         <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>entitlement_cases</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
       </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>
