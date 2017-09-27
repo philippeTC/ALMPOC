@@ -15,8 +15,9 @@ namespace ALMPOC.CRM.Plugins.Plugins.Account
         {
             try
             {
-
                 AccountManager accManager = new AccountManager(serviceProvider, true);
+                accManager.TraceService.Trace("Begin SetFieldValue plugin");
+                accManager.TraceInputParameters();
 
                 #region Verify execution context
 
@@ -26,8 +27,12 @@ namespace ALMPOC.CRM.Plugins.Plugins.Account
 
                 var context = accManager.PluginExecutionContext;
                 var entity = (Entity)context.InputParameters["Target"];
+                accManager.TraceInputEntityAttributes(entity);
 
-                entity["tickersymbol"] = "INF";
+                // set value
+                entity.Attributes.Add("tickersymbol", "INFX");
+
+                accManager.TraceService.Trace("End SetFieldValue plugin");
             }
             catch (Exception Ex)
             {

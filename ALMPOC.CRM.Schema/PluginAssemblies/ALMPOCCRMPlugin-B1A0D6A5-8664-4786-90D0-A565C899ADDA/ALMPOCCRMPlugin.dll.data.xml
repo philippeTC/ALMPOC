@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="ALMPOC.CRM.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8f71817d9fb5f8ab" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/ALMPOCCRMPlugin-B1A0D6A5-8664-4786-90D0-A565C899ADDA/ALMPOCCRMPlugin.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="ALMPOC.CRM.Plugins.Plugins.Account.SetFieldValue, ALMPOC.CRM.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8f71817d9fb5f8ab" Name="ALMPOC.CRM.Plugins.Plugins.Account.SetFieldValue">
+      <FriendlyName>f178f7d4-ceb4-4c93-b1c0-4370f0533d66</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

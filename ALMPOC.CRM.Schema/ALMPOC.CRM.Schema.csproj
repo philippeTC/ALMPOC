@@ -232,6 +232,9 @@
     <Content Include="Other\Customizations.xml" />
     <Content Include="Other\Relationships.xml" />
     <Content Include="Other\Solution.xml" />
+    <Content Include="PluginAssemblies\ALMPOCCRMPlugin-B1A0D6A5-8664-4786-90D0-A565C899ADDA\ALMPOCCRMPlugin.dll" />
+    <Content Include="PluginAssemblies\ALMPOCCRMPlugin-B1A0D6A5-8664-4786-90D0-A565C899ADDA\ALMPOCCRMPlugin.dll.data.xml" />
+    <Content Include="SdkMessageProcessingSteps\{640c0b48-61a3-e711-80e4-1458d04377a8}.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -243,7 +246,7 @@
   <Target Name="Build">
     <Message Text="Starting Build actions ...">
     </Message>
-    <Exec Command="&quot;$(SolutionDir)\ALMPOC.Tools\coretools\SolutionPackager.exe&quot; /action:pack /packagetype:both /folder:&quot;$(MSBuildProjectDirectory)&quot; /zipfile:&quot;$(OutDir)$(MSBuildProjectName).zip&quot; /map:&quot;$(SolutionDir)\ALMPOC.Tools\Mappings\ALMPOC.CRM.Schema-mapping.xml&quot;" />
+    <Exec Command="&quot;$(SolutionDir)ALMPOC.Tools\coretools\SolutionPackager.exe&quot; /action:pack /packagetype:both /folder:&quot;$(MSBuildProjectDirectory)&quot; /zipfile:&quot;$(OutDir)$(MSBuildProjectName).zip&quot; /map:&quot;$(SolutionDir)ALMPOC.Tools\Mappings\ALMPOC.CRM.Schema-mapping.xml&quot;" />
   </Target>
   <ItemGroup>
     <SolutionPackages Include="$(OutDir)$(MSBuildProjectName)*.zip" />

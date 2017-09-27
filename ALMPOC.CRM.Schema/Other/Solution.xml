@@ -89,6 +89,8 @@
       <RootComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" behavior="0" />
       <RootComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" behavior="0" />
       <RootComponent type="60" id="{eb3748b8-5f90-4050-a039-8b7d279ad8fe}" behavior="0" />
+      <RootComponent type="91" schemaName="ALMPOC.CRM.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8f71817d9fb5f8ab" behavior="0" />
+      <RootComponent type="92" id="{640c0b48-61a3-e711-80e4-1458d04377a8}" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
