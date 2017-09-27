@@ -384,6 +384,14 @@
                 </labels>
                 <rows>
                   <row>
+                    <cell id="{6b560c78-a905-5e69-53b3-2e06c6cba42e}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Hans 2" languagecode="1033" />
+                      </labels>
+                      <control id="new_hans2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_hans2" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
                     <cell id="{59782911-4d1a-38dc-ce49-7dae620dbc51}" showlabel="true">
                       <labels>
                         <label description="Industry" languagecode="1033" />
