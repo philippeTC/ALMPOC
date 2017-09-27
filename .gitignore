@@ -290,3 +290,5 @@ __pycache__/
 # PDB: CUSTOM IGNORES
 **/*_export.zip
 **/*_export_Managed.zip
+**/*Schema.zip
+**/*Schema_Managed.zip
