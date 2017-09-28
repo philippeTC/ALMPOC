@@ -52,7 +52,7 @@
     <None Include="Scripts\Pull\Pull-CrmSolution.Param.ps1" />
     <None Include="Scripts\Pull\Pull-CrmSolution.ps1" />
     <None Include="Scripts\Initialise.ps1" />
-    <None Include="Scripts\ReferenceData\Export-Data.ps1" />
+    <None Include="Scripts\ReferenceData\Import-Data.Param.ps1" />
     <None Include="Scripts\ReferenceData\Import-Data.ps1" />
   </ItemGroup>
   <ItemGroup>

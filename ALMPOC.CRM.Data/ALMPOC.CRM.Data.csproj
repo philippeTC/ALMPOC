@@ -42,12 +42,13 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="new_nacecode\new_nacecode_data.zip" />
+    <Folder Include="Schemas\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="new_nacecode\new_nacecode_schema.xml" />
+    <Content Include="new_nacecode\data.xml" />
+    <Content Include="new_nacecode\data_schema.xml" />
+    <Content Include="new_nacecode\[Content_Types].xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
