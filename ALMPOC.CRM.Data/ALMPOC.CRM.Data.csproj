@@ -46,9 +46,8 @@
     <Folder Include="Schemas\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="new_nacecode\data.xml" />
-    <Content Include="new_nacecode\data_schema.xml" />
-    <Content Include="new_nacecode\[Content_Types].xml" />
+    <None Include="new_country\data.csv" />
+    <None Include="new_nacecode\data.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

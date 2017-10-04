@@ -45,10 +45,12 @@
   <ItemGroup>
     <None Include="coretools\CrmSvcUtil.exe.config" />
     <None Include="coretools\LicenseTerms.docx" />
+    <None Include="Scripts\common\Deployment.Common.ps1" />
     <None Include="Scripts\common\CrmSolution.Common.ps1" />
     <None Include="Scripts\common\ReferenceData.Common.ps1" />
     <None Include="Scripts\Deploy\Deploy-CrmSolution.Param.ps1" />
     <None Include="Scripts\Deploy\Deploy-CrmSolution.ps1" />
+    <None Include="Scripts\DeployToDevOriginCRM.ps1" />
     <None Include="Scripts\Pull\Pull-CrmSolution.Param.ps1" />
     <None Include="Scripts\Pull\Pull-CrmSolution.ps1" />
     <None Include="Scripts\Initialise.ps1" />

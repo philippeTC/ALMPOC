@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="Test" OriginalName="Test">new_test</Name>
-  <ObjectTypeCode>10191</ObjectTypeCode>
+  <ObjectTypeCode>10008</ObjectTypeCode>
   <EntityInfo>
     <entity Name="new_test">
       <LocalizedNames>
@@ -135,7 +135,7 @@
           <Format>email</Format>
           <MaxLength>100</MaxLength>
           <displaynames>
-            <displayname description="Email Custom Address" languagecode="1033" />
+            <displayname description="Email Address" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="The primary email address for the entity." languagecode="1033" />
@@ -857,7 +857,7 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10191</PrimaryEntityTypeCode>
+      <PrimaryEntityTypeCode>10008</PrimaryEntityTypeCode>
       <CustomControlDefaultConfigId>{ffc42582-7ca3-e711-80e2-3863bb35af60}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />

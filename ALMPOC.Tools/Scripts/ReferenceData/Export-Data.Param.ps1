@@ -14,8 +14,7 @@ try
     -serverUrl (Get-CrmDevOrgUrl "ALMPOC.CRM.Schema") `
     -username (Get-CrmUsername "ALMPOC.CRM.Schema") `
     -password (Get-CrmPassword "ALMPOC.CRM.Schema") `
-	-dataFilePath "..\..\..\ALMPOC.CRM.Data\new_nacecode\data.xml" `
-	-dataSchemaFilePath "..\..\..\ALMPOC.CRM.Data\new_nacecode\data_schema.xml"
+	-dataFilePath "..\..\..\ALMPOC.CRM.Data"
 
 	Write-Output "End export of configuration data..."
 }

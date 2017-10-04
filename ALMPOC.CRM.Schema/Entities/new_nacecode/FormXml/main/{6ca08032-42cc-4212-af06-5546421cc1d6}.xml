@@ -27,6 +27,14 @@
                     </cell>
                   </row>
                   <row>
+                    <cell id="{35c3b163-6be5-a9cc-c34d-bc552137026e}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Code" languagecode="1033" />
+                      </labels>
+                      <control id="new_code" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_code" disabled="false" uniqueid="{a1284883-b34b-1823-6bb2-ac696c28b709}" />
+                    </cell>
+                  </row>
+                  <row>
                     <cell id="{def6aa26-c946-41c6-aa27-ce5e1fa898c2}">
                       <labels>
                         <label description="Owner" languagecode="1033" />
@@ -41,6 +49,37 @@
         </columns>
       </tab>
     </tabs>
+    <Navigation>
+      <NavBar></NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <controlDescriptions />
   </form>
   <IsCustomizable>1</IsCustomizable>
   <CanBeDeleted>1</CanBeDeleted>

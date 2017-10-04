@@ -5,10 +5,10 @@
   <isquickfindquery>0</isquickfindquery>
   <isprivate>0</isprivate>
   <isdefault>1</isdefault>
-  <returnedtypecode>10190</returnedtypecode>
+  <returnedtypecode>10007</returnedtypecode>
   <savedqueryid>{d05b0f20-aebd-4e9e-989d-cc1a1a33bd65}</savedqueryid>
   <layoutxml>
-    <grid name="resultset" object="10190" jump="new_name" select="1" icon="1" preview="1">
+    <grid name="resultset" object="10007" jump="new_name" select="1" icon="1" preview="1">
       <row name="result" id="new_supportticketid">
         <cell name="new_name" width="300" />
         <cell name="createdon" width="125" />

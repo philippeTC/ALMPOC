@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ALMPOC.CRM.Schema</RootNamespace>
     <AssemblyName>ALMPOC.CRM.Schema</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -191,6 +192,25 @@
     <Content Include="Entities\Incident\Visualizations\{F096F892-A382-DE11-9FF3-00155DA3B012}.xml" />
     <Content Include="Entities\Incident\Visualizations\{F10375A6-4893-DE11-97D4-00155DA3B01E}.xml" />
     <Content Include="Entities\Incident\Visualizations\{FFD9D95A-0F67-40C1-9245-C393E3E443F0}.xml" />
+    <Content Include="Entities\new_country\Entity.xml" />
+    <Content Include="Entities\new_country\FormXml\card\{b564b693-cf44-4a70-8c4a-406417ca019e}.xml" />
+    <Content Include="Entities\new_country\FormXml\card\{b564b693-cf44-4a70-8c4a-406417ca019e}_managed.xml" />
+    <Content Include="Entities\new_country\FormXml\mainInteractionCentric\{8dba32e3-ef13-487b-a4a1-afed656130bb}.xml" />
+    <Content Include="Entities\new_country\FormXml\mainInteractionCentric\{8dba32e3-ef13-487b-a4a1-afed656130bb}_managed.xml" />
+    <Content Include="Entities\new_country\FormXml\main\{16710376-0fc4-4118-8685-95cfd6854611}.xml" />
+    <Content Include="Entities\new_country\FormXml\main\{16710376-0fc4-4118-8685-95cfd6854611}_managed.xml" />
+    <Content Include="Entities\new_country\FormXml\mobile\{7ba8385f-e5ff-43b6-9d8c-63e0dbb5efc5}.xml" />
+    <Content Include="Entities\new_country\FormXml\mobile\{7ba8385f-e5ff-43b6-9d8c-63e0dbb5efc5}_managed.xml" />
+    <Content Include="Entities\new_country\FormXml\quick\{40f7e781-b495-4351-8582-1eba70f5f9a0}.xml" />
+    <Content Include="Entities\new_country\FormXml\quick\{40f7e781-b495-4351-8582-1eba70f5f9a0}_managed.xml" />
+    <Content Include="Entities\new_country\RibbonDiff.xml" />
+    <Content Include="Entities\new_country\SavedQueries\{029e1356-8263-4544-9adb-ca740e87e89a}.xml" />
+    <Content Include="Entities\new_country\SavedQueries\{1e04daa4-0ca8-e711-80e5-3863bb35af60}.xml" />
+    <Content Include="Entities\new_country\SavedQueries\{4abc6d85-20c4-4f91-a39b-695e3199433a}.xml" />
+    <Content Include="Entities\new_country\SavedQueries\{5db7fa73-723f-4df0-9fcb-b40a0ded38a6}.xml" />
+    <Content Include="Entities\new_country\SavedQueries\{8a8390e0-b74e-4dde-bd0a-9012444a1f25}.xml" />
+    <Content Include="Entities\new_country\SavedQueries\{ae68cbc6-4b36-418e-87e5-e71b3d7c8810}.xml" />
+    <Content Include="Entities\new_country\SavedQueries\{fd23e1e8-55fb-4f22-a276-89b864f10cc8}.xml" />
     <Content Include="Entities\new_nacecode\Entity.xml" />
     <Content Include="Entities\new_nacecode\FormXml\card\{384bc832-fc69-41b3-8d0a-8bfe9bb16a3d}.xml" />
     <Content Include="Entities\new_nacecode\FormXml\card\{384bc832-fc69-41b3-8d0a-8bfe9bb16a3d}_managed.xml" />
@@ -249,9 +269,36 @@
     <Content Include="Entities\new_test\SavedQueries\{b67117a2-c3bd-4bf4-819f-6213b4bb4cae}.xml" />
     <Content Include="Entities\new_test\SavedQueries\{db6e9c92-6989-49cf-886c-b08540f4a853}.xml" />
     <Content Include="Other\Customizations.xml" />
+    <Content Include="Other\EntityMaps.xml" />
     <Content Include="Other\Relationships.xml" />
+    <Content Include="Other\Relationships\Account.xml" />
+    <Content Include="Other\Relationships\BusinessUnit.xml" />
+    <Content Include="Other\Relationships\ChildIncidentCount.xml" />
+    <Content Include="Other\Relationships\Contact.xml" />
+    <Content Include="Other\Relationships\Contract.xml" />
+    <Content Include="Other\Relationships\ContractDetail.xml" />
+    <Content Include="Other\Relationships\Entitlement.xml" />
+    <Content Include="Other\Relationships\Equipment.xml" />
+    <Content Include="Other\Relationships\ExternalParty.xml" />
+    <Content Include="Other\Relationships\Incident.xml" />
+    <Content Include="Other\Relationships\KbArticle.xml" />
+    <Content Include="Other\Relationships\KnowledgeBaseRecord.xml" />
+    <Content Include="Other\Relationships\Lead.xml" />
+    <Content Include="Other\Relationships\List.xml" />
+    <Content Include="Other\Relationships\new_nacecode.xml" />
+    <Content Include="Other\Relationships\Owner.xml" />
+    <Content Include="Other\Relationships\PriceLevel.xml" />
+    <Content Include="Other\Relationships\Product.xml" />
+    <Content Include="Other\Relationships\Service.xml" />
+    <Content Include="Other\Relationships\SLA.xml" />
+    <Content Include="Other\Relationships\SLAKPIInstance.xml" />
+    <Content Include="Other\Relationships\SocialProfile.xml" />
+    <Content Include="Other\Relationships\Subject.xml" />
+    <Content Include="Other\Relationships\SystemUser.xml" />
+    <Content Include="Other\Relationships\Team.xml" />
+    <Content Include="Other\Relationships\Territory.xml" />
+    <Content Include="Other\Relationships\TransactionCurrency.xml" />
     <Content Include="Other\Solution.xml" />
-    <Content Include="PluginAssemblies\ALMPOCCRMPlugin-B1A0D6A5-8664-4786-90D0-A565C899ADDA\ALMPOCCRMPlugin.dll" />
     <Content Include="PluginAssemblies\ALMPOCCRMPlugin-B1A0D6A5-8664-4786-90D0-A565C899ADDA\ALMPOCCRMPlugin.dll.data.xml" />
     <Content Include="SdkMessageProcessingSteps\{640c0b48-61a3-e711-80e4-1458d04377a8}.xml" />
     <Content Include="WebResources\new_\account.js" />

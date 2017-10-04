@@ -30,7 +30,7 @@ namespace ALMPOC.CRM.Plugins.Plugins.Account
                 accManager.TraceInputEntityAttributes(entity);
 
                 // set value
-                entity.Attributes.Add("tickersymbol", "INFX");
+                entity.Attributes.Add("tickersymbol", "INFP");
 
                 accManager.TraceService.Trace("End SetFieldValue plugin");
             }

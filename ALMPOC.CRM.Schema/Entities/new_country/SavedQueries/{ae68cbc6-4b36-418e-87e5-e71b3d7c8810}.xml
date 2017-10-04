@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>0</isdefault>
+  <returnedtypecode>10009</returnedtypecode>
+  <savedqueryid>{ae68cbc6-4b36-418e-87e5-e71b3d7c8810}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10009" jump="new_name" select="1" icon="1" preview="1">
+      <row name="result" id="new_countryid">
+        <cell name="new_name" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="new_country">
+        <attribute name="new_countryid" />
+        <attribute name="new_name" />
+        <attribute name="createdon" />
+        <order attribute="new_name" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="1" />
+        </filter>
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Inactive Countries" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

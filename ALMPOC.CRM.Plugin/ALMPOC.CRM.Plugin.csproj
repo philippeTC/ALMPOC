@@ -73,7 +73,6 @@
     <Compile Include="CrmServices\Log.cs" />
     <Compile Include="CrmServices\XrmSdk.cs" />
     <Compile Include="Helpers\Attributes.cs" />
-    <Compile Include="Helpers\CrmExtensionMethods.cs" />
     <Compile Include="Helpers\CrmSdkHelper.cs" />
     <Compile Include="Helpers\DynamicUrlParser.cs" />
     <Compile Include="Helpers\InfrontAPIValidationResponse.cs" />
@@ -81,9 +80,11 @@
     <Compile Include="Helpers\PluginSettings.cs" />
     <Compile Include="Helpers\PublicEnum.cs" />
     <Compile Include="Helpers\SystemExtensionMethods.cs" />
+    <Compile Include="Logic\ContactManager.cs" />
     <Compile Include="Logic\AccountManager.cs" />
     <Compile Include="Logic\ManagerBase.cs" />
     <Compile Include="Plugins\Account\SetFieldValue.cs" />
+    <Compile Include="Plugins\Contact\SetFieldValue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Translations.Designer.cs" />
   </ItemGroup>
@@ -97,9 +98,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\Translations.resx" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Plugins\Contact\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="CrmServices\Filter.xml" />
   </ItemGroup>
